@@ -20,17 +20,17 @@
 ---
 
 ## Introduction
-- The Student Attendance System is a PHP-based web application designed to manage student attendance records efficiently. It is developed by Code Camp BD and organized into three main sections: Admin Panel, Teacher Panel, and Student Panel.
+- The Student Attendance System is a PHP-based web application designed to manage student attendance records efficiently. It is developed by Code Camp BD and organized into two main sections: Admin Panel and Teacher Panel.
 
 ## Project Overview
 - The system enables administrators to manage users, teachers to track attendance for specific subjects, and students to view their attendance records.
 
 ## Objectives
 - Simplify student attendance tracking
-- Provide role-specific dashboards for admins, teachers, and students
+- Provide role-specific dashboards for admins and teachers
 
 ## Features
-- Admin, Teacher, and Student panels
+- Admin and Teacher panels
 - User creation and data management
 - Attendance filtering and reporting
 
@@ -73,7 +73,7 @@
   Password: pass123
 
   ## Project structure
-  
+  ```
   ├── STUDENT-ATTENDANCE SYSTEM
   ├── Admin
   │   ├── css
