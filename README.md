@@ -1,25 +1,196 @@
-# Student-Attendance-Management-System
-This PHP attendance system project is primarily concerned with dealing with students' attendance and records. In addition, the system displays all available data, such as instructor and student information, as well as their individual attendance. Admin Panel, Student Panel, and Teacher's Panel are the three sections of the project. In this web app's overview, the administrator has the ability to create users as well as insert student and teacher data. In terms of the project, the administrator has access to all student and teacher records. The teacher's account allows him or her to filter student data and keep track of his or her attendance for a certain subject. Aside from that, the student has access to just records and attendance reports.
+# SD-3101 [STUDENT-ATTENDANCE SYSTEM]
 
-*Youtube Channel: https://www.youtube.com/@codecampbdofficial
+![Project Banner](https://via.placeholder.com/1200x400.png?text=Project+Banner+Placeholder)
 
-** Admin Login Details **
-* Email   : admin@mail.com
-* Password: (Password on the YouTube video)
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage Instructions](#usage-instructions)
+- [Project Structure](#project-structure)
+- [Contributors](#contributors)
+- [Chagelog](#changelog)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-* Video Link: https://www.youtube.com/watch?v=ra84Xw-dd4Y&t=74s
+---
 
-**Teacher Login Details**
+## Introduction
+- The Student Attendance System is a PHP-based web application designed to manage student attendance records efficiently. It is developed by Code Camp BD and organized into three main sections: Admin Panel, Teacher Panel, and Student Panel.
 
-* Email   : teacher@mail.com
-* Password: (Password on the YouTube video)
+## Project Overview
+- The system enables administrators to manage users, teachers to track attendance for specific subjects, and students to view their attendance records.
 
-* Video Link: https://www.youtube.com/watch?v=ra84Xw-dd4Y&t=74s
-#
-![Screenshot (1308)](https://user-images.githubusercontent.com/36708000/173136998-4de6eccc-377f-419e-83b6-e767503bbb5d.png)
-#
-![Screenshot (1309)](https://user-images.githubusercontent.com/36708000/173137041-69d68213-077d-4362-bd4e-cfba5a6b2202.png)
-#
-![Screenshot (1313)](https://user-images.githubusercontent.com/36708000/173137057-5aad5420-7689-4d5e-aae0-df796154e993.png)
-#
-![Screenshot (1316)](https://user-images.githubusercontent.com/36708000/173137075-81d7b66e-a5cc-4228-ab14-cecc465701d7.png)
+## Objectives
+- Simplify student attendance tracking
+- Provide role-specific dashboards for admins, teachers, and students
+
+## Features
+- Admin, Teacher, and Student panels
+- User creation and data management
+- Attendance filtering and reporting
+
+## Technologies Used
+- Frontend: HTML, CSS, SCSS, JavaScript (with frameworks like Bootstrap for responsive design)
+- Backend: PHP, Node.js
+- Database: MySQL
+- Version Control: Git for code management
+
+## Setup and Installation
+
+1. **Clone the repository:**
+
+   git clone git https://github.com/dev-mhrony/Student-Attendance-System01.git
+   
+2. **Set up the environment:**
+	- Download and install XAMPP
+    - Open the XAMPP and start Apache and MySQL services
+
+3. **Database Setup**:
+    - Import the provided database SQL file into phpMyAdmin.
+    - Name the databasename attendancemsystem01
+    - Open the dbcon.php file in Include and update the database name:
+  ```php
+   &db = "attendancemsystem01"
+   ```
+   
+4. **Run the project:**
+   - Move the project file in htdocs folder in XAMPP directory
+   - Access the site by typing http://localhost/attendancemsystem01-website/
+
+ ## Usage Instructions
+
+- **Admin Login Details**
+  Email : admin@mail.com
+  Password: Password@123
+
+- **Teacher Login Details** 
+  Email : teacher@mail.com
+  Password: pass123
+
+  ## Project structure
+  
+  ├── STUDENT-ATTENDANCE SYSTEM
+  ├── Admin
+  │   ├── css
+  │   ├── font
+  │   ├── img
+  │   ├── Includes
+  │   ├── js
+  │   ├── scss
+  │   ├── ajaxClassArms.php
+  │   ├── ajaxClassArms2.php
+  │   ├── createClass.php
+  │   ├── createClassArms.php
+  │   ├── createClassTeacher.php
+  │   ├── createSessionTerm.php
+  │   ├── createStudents.php
+  │   ├── createUsers.php
+  │   ├── index.php
+  │   ├── logout.php
+  │   └── Readme.md
+  ├── ClassTeacher
+  │   ├── css
+  │   ├── font
+  │   ├── img
+  │   ├── Includes
+  │   ├── js
+  │   ├── scss
+  │   ├── ajaxClassArmsallTypes.php
+  │   ├── downloadRecord.php
+  │   ├── index.php
+  │   ├── logout.php
+  │   ├── takeAttendance.php
+  │   ├── viewAttendance.php
+  │   ├── viewStudentAttendance.php
+  │   └── viewStudents.php
+  ├── css
+  │   ├── ruang-admin.css
+  │   └── ruang-admin.min.css
+  ├── DATABASE FILE
+  │   └── attendancemsystem01.sql
+  ├── fonts
+  │   ├── Nunito-Regular.ttf
+  │   └── OFL.txt
+  ├── img
+  │   ├── logo
+  │   └── user-icn.png
+  ├── Includes
+  │   ├── dbcon.php
+  │   └── session.php
+  ├── js
+  │   ├── demo
+  │   ├── ruang-admin.js
+  │   └── ruang-admin.min.js
+  ├── scripts
+  │   └── saveMember.php
+  ├── scss
+  │   ├── navs
+  │   ├── utilities
+  │   ├── buttons.scss
+  │   ├── cards.scss
+  │   ├── charts.scss
+  │   ├── dropdown.scss
+  │   ├── error.scss
+  │   ├── footer.scss
+  │   ├── global.scss
+  │   ├── login.scss
+  │   ├── mixins.scss
+  │   ├── navs.scss
+  │   ├── utilities.scss
+  │   ├── variables.scss
+  │   └── sb-admin-2.scss
+  ├── vendor
+  │   ├── bootstrap
+  │   ├── datatables
+  │   ├── fontawesome-free
+  │   ├── jquery
+  │   └── jquery-easing
+  ├── classTeacherLogin.php
+  ├── forgotPassword.php
+  ├── index.php
+  └── README.md
+
+## Contributors
+
+- **John Henry Barba**: Lead Developer, Backend Developer
+- **Raven Ashley Reyes**: Frontend Developer, UI/UX Designer
+- **Gerald Villaran**: Project Manager, Tester
+
+## Project Timeline
+
+- **Week 1-2**: Research and project planning.
+- **Week 3-5**: Design and setup.
+- **Week 6-10**: Implementation.
+- **Week 11-12**: Testing and debugging.
+- **Week 13-14**: Final presentation and documentation.
+
+## Changelog
+
+### [Version 1.0.0] - 2024-09-07
+- Initial release of the project.
+- Added basic functionality for [Feature 1], [Feature 2], and [Feature 3].
+
+### [Version 1.1.0] - 2024-09-14
+- Improved user interface for [Feature 1].
+- Fixed bugs related to [Feature 2].
+- Updated project documentation with setup instructions.
+
+### [Version 1.2.0] - 2024-09-21
+- Added new functionality for [Feature 4].
+- Refactored codebase for better performance.
+- Added unit tests for [Feature 3] and [Feature 4].
+
+## Acknowledgments
+
+Acknowledge any resources, mentors, or external tools that helped in completing the project.
+
+This project was built from [Original Project Name](https://github.com/dev-mhrony/Student-Attendance-System01), created by [dev-mhrony]. You can view the original repository [here](https://github.com/dev-mhrony/Student-Attendance-System01).
+
+## License
+
+Specify the project's license. For starters, adapt the license of the original repository.
+"# student-attendance-management-system" 
