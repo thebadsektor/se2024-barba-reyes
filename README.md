@@ -1,6 +1,7 @@
 # SD-3101 [STUDENT-ATTENDANCE SYSTEM]
 
-![Project Banner](https://via.placeholder.com/1200x400.png?text=Project+Banner+Placeholder)
+![image](https://github.com/user-attachments/assets/2a4f0ef0-737e-443c-93f5-a40932077e2a)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
