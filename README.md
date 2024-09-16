@@ -60,7 +60,7 @@
    
 4. **Run the project:**
    - Move the project file in htdocs folder in XAMPP directory
-   - Access the site by typing http://localhost/attendancemsystem01-website/
+   - Access the site by typing [http://localhost/attendancemsystem01-website/](http://localhost/attendance/Student-Attendance-System01/)
 
  ## Usage Instructions
 
@@ -151,7 +151,6 @@
   │   ├── jquery
   │   └── jquery-easing
   ├── classTeacherLogin.php
-  ├── forgotPassword.php
   ├── index.php
   └── README.md
 
