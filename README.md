@@ -162,7 +162,23 @@
 
 ## Project Timeline
 
-- **Week 1-2**: Research and project planning.
+- **Week 1-2**: Collaborative Brainstorming for Feature Development
+  	- September 15, 2024
+
+	- Meeting Recording: [https://youtu.be/-joPkUy2A9s](https://www.youtube.com/watch?feature=shared&v=qAwml1JgZxQ)
+
+	Proposes Features:
+	- Registration for new accounts
+	- Feedback Form
+	- Forgot password
+	- Custom attendance category
+	- Attendance Reminders
+	- Consecutive Absences Alarm
+	- Add a color coded status
+	- Absent reason dropdown
+	- Student Profile Pictures
+	- Student Sorting
+
 - **Week 3-5**: Design and setup.
 - **Week 6-10**: Implementation.
 - **Week 11-12**: Testing and debugging.
