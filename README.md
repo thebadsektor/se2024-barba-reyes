@@ -74,7 +74,7 @@
 
   ## Project structure
   ```
-  ├── STUDENT-ATTENDANCE SYSTEM
+├── STUDENT-ATTENDANCE SYSTEM
   ├── Admin
   │   ├── css
   │   ├── font
