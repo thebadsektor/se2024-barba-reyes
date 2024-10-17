@@ -180,6 +180,9 @@
 	- Student Profile Pictures
 	- Student Sorting
 
+	Feature: Dockerize
+	Completion Date: 27/10/2024
+
 - **Week 3-5**: Design and setup.
 - **Week 6-10**: Implementation.
 - **Week 11-12**: Testing and debugging.
